@@ -10,18 +10,14 @@ Run the example
 
 For this application you need have java 8 and maven
 
-Clone this repository
-Run 
+1. Clone this repository
+2. Run 
 ```shell script
-	mvn clean install 
-```
-After Run 
-```shell script
-	java -jar target/html-scanner-1.0-SNAPSHOT.jar  -id ${id} -op ${path to original html file} -sp ${path to snippet html file}
+	mvn clean install  && java -jar target/html-scanner-1.0-SNAPSHOT.jar  -id ${id} -op ${path to original html file} -sp ${path to snippet html file}
 ```
 
 Id is the only exact criteria, to find the target element in the original file.
 
 ## Support
 Please enter an issue in the repo for any questions or problems. 
-<br> Alternatively, please contact us at support@openfin.co
+<br> Alternatively, please contact us at ttninefortynine@gmail.com
